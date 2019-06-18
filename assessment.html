@@ -31,11 +31,16 @@
       <tr>
         <th rowspan="2">Team Name</th>
         <th></th>
+      </tr>
+      <tr>
         <th>Q1</th>
         <th>Q2</th>
         <th>Q3</th>
         <th>Q4</th>
         <th>Final</th>
+      </tr>
+      <tr>
+        <th></th>
       </tr>
       <tr>
         <th>Denver</th>
@@ -44,7 +49,7 @@
         <td>0</td>
         <td>14</td>
         <td>21</td>
-        </tr
+      </tr
         <tr>
           <th>Miami</th>
           <td>0</td>
@@ -65,9 +70,10 @@
       <list>
         <ul>
           <li></li>
-          <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi7_pn89vHiAhXC31QKHRimD2AQjRx6BAgBEAU&url=https%3A%2F%2Fwww.target.com%2Fp%2Fnfl-denver-broncos-large-outdoor-logo-decal%2F-%2FA-53949099&psig=AOvVaw01zIzsFhP2MfuQzXThh5OS&ust=1560900267127660"/>
+          <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi7_pn89vHiAhXC31QKHRimD2AQjRx6BAgBEAU&url=https%3A%2F%2Fwww.target.com%2Fp%2Fnfl-denver-broncos-large-outdoor-logo-decal%2F-%2FA-53949099&psig=AOvVaw01zIzsFhP2MfuQzXThh5OS&ust=1560900267127660" alt="Broncos Logo" width="100" height="100"/>
+          Broncos logo:<br>
           <br>
-          <a href="https://www.denverbroncos.com/"></a>
+          <a href="https://www.denverbroncos.com/">Denver Broncos</a>
           <ul>
             <li>Coach: Gary Kubiak</li>
             <li>QB</li>
@@ -81,9 +87,10 @@
 
       <ul>
         <li></li
-          <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjns4Gk-fHiAhXmhFQKHcLRBLsQjRx6BAgBEAU&url=https%3A%2F%2Fwww.thephinsider.com%2F2012%2F12%2F26%2F3804672%2Fmiami-dolphins-new-logo-leaked-2013-uniforms&psig=AOvVaw3e7YtHP29u-FmOzAJ9ldf8&ust=1560910068119067"/>
+          <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiI2KKNhPPiAhUQRKwKHf9sAdQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.sccpre.cat%2Fshow%2FohTRJ_miami-dolphins-png-miami-dolphins-logo%2F&psig=AOvVaw0MtHo3viGBmDMSG5z--SS2&ust=1560947314413825" alt="Dolphins Logo" width="100" height="100"/>
+          Dolphins logo:<br>
           <br>
-          <a href="https://www.miamidolphins.com/"></a>
+          <a href="https://www.miamidolphins.com/">Miami Dolphins</a>
           <ul>
             <li>Coach: Brian Flores</li>
             <li>QB</li>
@@ -95,25 +102,37 @@
               </ol>
             </ul>
       <h1>FORM</h1>
-      <form>
-        <input type="text" name="First Name">
-        <input type="text" name="Last Name">
-        <input type="radio" name="Football">
+      <form action="/action_page.php">
+        <input type="text" name="First Name" value="Craig">
+        <input type="text" name="Last Name" value="Dreiling">
+        <input type="radio" name="Football" checked>
+        Football<br>
         <input type="radio" name="Baseball">
-        <input type="radio" name="Basketball">
+        Baseball<br>
+        <input type="radio" name="Basketball" checked>
+        Basketball<br>
         <p>I have:
-          <input type="radio" name="Attended">
-          <input type="radio" name="Played">
-          <input type="radio" name="Coached">
-          <input type="radio" name="Bet on">
+          <form>
+          <input type="checkbox" name="Attended" checked>
+          Attended<br>
+          <input type="checkbox" name="Played" checked>
+          Played<br>
+          <input type="checkbox" name="Coached">
+          Coached<br>
+          <input type="checkbox" name="Bet on">
+          Bet on<br>
         this sport.
       </p>
         <p>For this sport I prefer the:
           <input type="radio" name="Amateur">
+          Amateur<br>
           <input type="radio" name="College">
-          <input type="radio" name="Professional">
+          College<br>
+          <input type="radio" name="Professional" checked>
+          Professional<br>
         </p>
-        <input type="Submit Query">
+        <input type="submit" value="Submit Query">
+        <br>
         </form>
   </body>
 
