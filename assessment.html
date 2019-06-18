@@ -49,7 +49,7 @@
         <td>0</td>
         <td>14</td>
         <td>21</td>
-      </tr
+      </tr>
         <tr>
           <th>Miami</th>
           <td>0</td>
@@ -66,6 +66,7 @@
             <td>14</td>
             <td>24</td>
           </tr>
+        </table>
       <h1>LIST</h1>
       <list>
         <ul>
@@ -105,15 +106,21 @@
             </ul>
       <h1>FORM</h1>
       <form action="/action_page.php">
-      <select>
+        First Name
         <input type="text" name="First Name" value="Craig">
+        Last Name
         <input type="text" name="Last Name" value="Dreiling">
+        <br>
+        Favorite sport
+        <br>
+        <select>
         <option value="Football">football</option>
 
         <option value="Baseball">baseball</option>
 
         <option value="Basketball">basketball</option>
 
+      </select>
         <p>I have:
           <form>
           <input type="checkbox" name="Attended">
@@ -127,12 +134,13 @@
         this sport.
       </p>
         <p>For this sport I prefer the:
-          <input type="checkbox" name="Amateur">
-          Amateur<br>
-          <input type="checkbox" name="College">
-          College<br>
-          <input type="checkbox" name="Professional" checked>
-          Professional<br>
+          <input type="radio" name="league" value="Amateur">
+          Amateur
+          <input type="radio" name="league" value="College">
+          College
+          <input type="radio" name="league" value="Professional">
+          Professional
+          <br>
         </p>
         <input type="submit" value="Submit Query">
         <br>
